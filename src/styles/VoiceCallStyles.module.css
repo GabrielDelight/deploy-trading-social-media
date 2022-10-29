@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+}
+
+.aside {
+    flex-basis: 30%
+}
+
+.article_section {
+    flex-basis: 70%;
+    height: 86vh;
+    background: rgb(71, 41, 125);
+    background: linear-gradient(173deg, rgba(71, 41, 125, 1) 5%, rgba(70, 40, 123, 1) 100%, rgba(111, 52, 111, 1) 100%);
+}
+
+.article_section p, .article_section i {
+    color: white
+}
+.calling_oprions_div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.avatar_section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.icon_row_section {
+    display: flex;
+    align-items: center
+}
+
+.icon_row_section div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+}
+
+.icon_row_section i {
+    font-size: 25px;
+    color: white
+}

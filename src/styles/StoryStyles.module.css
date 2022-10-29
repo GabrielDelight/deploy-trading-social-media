@@ -1,0 +1,73 @@
+.main {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 84vh;
+    margin: auto;
+    /* background-color: pink; */
+}
+
+.article {
+    flex-basis: 50%;
+    height: 100%;
+}
+
+.aside {
+    flex-basis: 40%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.relative_container {
+    height: 100%;
+    position: relative;
+}
+
+.relative_container img {
+    width: 100%;
+    height: 100%;
+}
+
+.relative_container video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.absolute_header {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 7px;
+    
+}
+
+.absolute_header i, .absolute_header p {
+    color: white;
+    font-size: 25px;
+}
+
+.absolute_header i {
+    margin-bottom: -10px;
+    display: inline-block;
+}
+
+.absolute_header button {
+    display: flex;
+    align-items: center;
+    background-color: unset !important;
+    color: white;
+    font-size: 25px;
+}
+
+.absolute_header button i {
+    margin-top: -7px;
+    margin-right: 10px;
+}

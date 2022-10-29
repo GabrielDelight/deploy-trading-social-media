@@ -1,0 +1,79 @@
+.aside_container {
+    flex-basis: 18%;
+    background-color: white;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    padding:0px 20px;
+}
+
+
+@media (max-width: 600px) {
+    .aside_container {
+        display: none;
+    }
+}
+
+.aside_container a {
+    color: unset;
+}
+
+
+.aside_list_container p {
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all ease-in .5 s;
+}
+
+.aside_list_container p:hover {
+    background-color: rgb(221, 221, 221, 0.5);
+}
+
+.aside_list_container p i {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.aside_list_container p span {
+    margin-top: -4px;
+}
+
+
+.profile_bottom_section {
+    width: 160px;
+    height: 120px;
+    border: 2px solid #ddd;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    background-color: #F0F0F0;
+}
+
+
+.profile_bottom_section img {
+    position: absolute;
+    top: -34px;
+    right: 50px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+
+.absolute_2 {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.absolute_2 button {
+    padding: 10px 20px;
+    background-color: #FFBB00;
+    border-radius: 10px;
+    margin: 6px 0px;
+}

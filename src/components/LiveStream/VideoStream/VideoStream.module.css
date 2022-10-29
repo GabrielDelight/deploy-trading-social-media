@@ -1,0 +1,136 @@
+.container {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.container video {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    height: 411px;
+    background-color: black;
+    object-fit: cover;
+}
+
+.incoming_contaiuner {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.incoming_contaiuner {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.sub_wrapper_section {
+    display: flex;
+    position: relative;
+}
+
+.profile_container {
+    display: flex;
+    align-items: center;
+}
+
+.absolute_close_x_icon {
+    position: absolute;
+    top: -17px;
+    right: -17px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.absolute_close_x_icon i svg {
+    font-size: 25px;
+    color: #FF5E61;
+}
+
+.profile_container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.accept_button button {
+    padding: 10px 20px;
+    background-color: #50BB69;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+/* Footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button.id_button {
+    padding: 10px 20px;
+    background-color: white;
+    color: balck;
+    width: 130px;
+}
+
+.exit_button {
+    padding: 10px 20px;
+    background-color: white;
+    color: balck;
+    color: #FF5E61;
+    width: 130px;
+}
+
+.middle_button_ {
+    display: flex;
+    align-items: center;
+
+}
+
+.middle_button_ div {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.middle_button_ i {
+    color: black;
+    font-size: 22px;
+    margin-top: 7px;
+}
+
+.mike_div_sec {
+    background-color: #FF5E61 !important;
+}
+
+.mike_div_sec i {
+    color: white;
+}
+
+.dot_icon {
+    background-color: #1492E6 !important;
+}
+
+.dot_icon i {
+    color: white;
+}

@@ -1,0 +1,18 @@
+.search_container {
+    position: relative;
+}
+.search_container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #FAFBFC;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+}
+
+.search_icon_div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

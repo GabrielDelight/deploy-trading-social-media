@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    /* min-height: 100vh; */
+    border-radius: 20px;
+
+}
+
+.messahes {
+    flex-basis: 28%;
+    padding: 10px;
+    background-color: white;
+    border-top-left-radius: 20px;
+}
+
+.h3_text {
+    color: black;
+}
+
+.article_section {
+    flex-basis: 46%;
+    background-color: #F9FAFC;
+    padding: 10px;
+}
+
+.eight_aside {
+    /* flex-basis: 25%; */
+    padding: 10px;
+}
+
+.header {
+    padding: 20px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #F4F5F8;
+}

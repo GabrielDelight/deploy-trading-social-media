@@ -1,0 +1,60 @@
+.meetings_container {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .meetings_container {
+        width: 100%;
+    }
+}
+
+.header input,
+.timer_section input {
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 1px 4px 10px rgb(225 225 225);
+    border-radius: 20px;
+}
+
+.timer_section input {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3F4168;
+}
+
+/* .timer_section {
+    padding: 20px;
+    box-shadow: 1px 4px 10px rgb(225 225 225);
+    border-radius: 20px;
+} */
+
+.timer_section {
+    display: block;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+}
+
+.done_btn button {
+    display: block;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    background-color: #50BB69;
+    padding: 14px 20px;
+    width: 150px;
+    border-radius: 20px;
+    ;
+    color: white;
+
+}

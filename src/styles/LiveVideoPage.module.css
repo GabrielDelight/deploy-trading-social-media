@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    min-height: 100vh;
+}
+
+.article {
+    flex-basis: 75%;
+    margin: 10px;
+}
+.aside {
+    flex-basis: 25%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.container_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

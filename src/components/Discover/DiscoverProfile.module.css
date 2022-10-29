@@ -1,0 +1,90 @@
+.avatar_section_ img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.owner_name {
+    text-align: center;
+    line-height: 1.5;
+}
+
+._full_name_x {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.owner_name div {
+    justify-content: center;
+}
+
+.analysis_container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.analysis_container div {
+    margin: 10px 20px;
+}
+
+.analysis_container div h4 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #11243D;
+
+}
+
+.analysis_container div p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #707A89;
+}
+
+
+.button_section {
+    text-align: center;
+}
+
+.button_section button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 140px;
+}
+
+.button_section button:last-child {
+    background: #FFFFFF;
+    border: 1px solid #E6E6EB;
+}
+
+.photo_preview_section {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.photo_preview_section div {
+    flex-basis: 33%;
+    height: 109.79px;
+}
+
+.photo_preview_section img {
+    width: 100%;
+    height: 100%;
+}

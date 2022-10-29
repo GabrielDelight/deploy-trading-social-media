@@ -1,0 +1,55 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  text-align: center;
+}
+
+.box {
+  width: 30%;
+  background: #1b233f;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+.proceed {
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 3rem;
+  cursor: pointer;
+  background: #ffbb00;
+
+  color: #080808;
+}
+
+.btn__container {
+  margin: 3rem 0 0 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 70%;
+    z-index: 1;
+    padding: 2rem;
+  }
+
+  .wrapper {
+    height: 55%;
+  }
+
+  .proceed {
+    font-size: 15px;
+
+    padding: 10px 1rem;
+
+    background: #ffbb00;
+  }
+}

@@ -1,0 +1,123 @@
+.main {
+    display: flex;
+    width: 100%;
+}
+
+
+
+.aside {
+    flex-basis: 30%;
+    height: 100%;
+    background-color: #ddd;
+    padding: 20px;
+    padding-top: unset;
+}
+
+.article {
+    flex-basis: 60%;
+    padding: 20px;
+    background-color: #F9FAFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    width: 70%;
+    margin-top: auto;
+    display: block;
+}
+
+@media (max-widtH: 600px) {
+    .main {
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .aside {
+        width: 100%;
+        flex-basis: 100%;
+        background-color: white;
+    }
+
+    .article {
+        width: 100%;
+        flex-basis: 100%;
+    }
+}
+
+
+.create_div_container {
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.create_div_container i {
+    font-size: 30px;
+}
+
+.create_div_container i svg {
+    color: white;
+}
+
+.create_div_container p {
+    color: white !important;
+}
+
+.form_container {
+    width: 100%;
+}
+
+.form_container input,
+.form_container textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px #e0e0e04f;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.form_container textarea {
+    height: 220px;
+}
+
+@media (max-width: 600px) {
+    .form_container textarea {
+        height: 170px;
+    }
+}
+
+.button_section_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_section_container button {
+    padding: 20px 40px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.submut_button {
+    width: 70%;
+    background-color: #50BB69;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+
+}

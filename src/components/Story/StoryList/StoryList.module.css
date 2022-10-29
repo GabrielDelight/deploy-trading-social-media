@@ -1,0 +1,47 @@
+.story_list_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+
+/* Tje list here */
+.story_list_item {
+    width: 90px;
+}
+
+@media (max-width: 8200px) {
+    .story_list_item {
+        margin-right: 10px;
+    }
+}
+
+.story_img_relative {
+    width: 90px;
+    height: 90px;
+    background-color: #ddd;
+    position: relative;
+}
+
+
+
+img.story_image_wrapper {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.aboslute_small_image img {
+    position: absolute;
+    bottom: -5px;
+    left: 36px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.story_owner_name {
+    text-align: center;
+    line-height: 3;
+}

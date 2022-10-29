@@ -1,0 +1,83 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+
+.wrapper {
+  width: 404px;
+  height: 300px;
+  background: #1B233F;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.header h3{
+  color: #21BBDB;
+  font-weight: 700;
+}
+
+
+.otp__container {
+  width: 100%;
+  display: flex;
+}
+
+.box {
+  width: 25%;
+  background-color: #fff;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 8px 0;
+  margin: 0 3%;
+
+}
+
+.btn__container {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.container button {
+  cursor: pointer;
+  background: #FFBB00;
+  border-radius: 8px;
+  padding: 8px 3rem;
+  border: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.otp__container input {
+  width: 50%;
+  height: 100%;
+  border: none;
+  outline: none;
+  transition: all ease .5s;
+  font-size: 20px;
+  text-align: center;
+}
+
+.otp__container input:focus {
+  border-bottom: 1px solid #707070;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: 70%;
+    z-index: 1;
+  }
+}

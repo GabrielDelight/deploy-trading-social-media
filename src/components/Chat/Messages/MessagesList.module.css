@@ -1,0 +1,56 @@
+.message_list_container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+
+.relative_avatar {
+    position: relative;
+}
+
+.relative_avatar img {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    border: 1px solid #FFB400;
+    margin-right: 10px;
+}
+
+.absolute_online_icon {
+    position: absolute;
+    bottom: 6px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: #76C00D;
+    border-radius: 50%;
+}
+
+.list_name p {
+    font-size: 16px;
+    color: #7B8793;
+}
+
+.list_name p small {
+    color: #AFBBC6;
+}
+
+.action_area_section{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.counter_chat{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #76C00D;
+    border-radius: 50%;
+    color: white;
+}

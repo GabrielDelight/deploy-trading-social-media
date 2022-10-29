@@ -1,0 +1,157 @@
+.title_container {
+    text-align: center;
+}
+
+
+.form_container_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .form_container_div {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+
+.input_div_container {
+    position: relative;
+    flex-basis: 30%;
+    margin: 10px;
+}
+
+.password_toggle_container {
+    position: absolute;
+    right: 10px;
+    top: 14px;
+
+}
+
+.password_toggle_container i {
+    font-size: 20px;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .input_div_container {
+        width: 100%;
+        background-color: pink;
+    }
+}
+
+.input_div_container input {
+    padding: 15px;
+    border: 1px solid black;
+    outline: none;
+    width: 100%;
+}
+
+.input_div_container input::placeholder {
+    color: black;
+}
+
+
+
+
+/* Terms and condition area */
+.terms_and_condition_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.term_and_condition_div {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .term_and_condition_div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .terms_and_condition_area {
+        flex-direction: column;
+    }
+}
+
+.term_and_condition_div input {
+    margin-right: 10px;
+}
+
+.button_container {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.button_container span {
+    margin-right: 10px;
+}
+
+.button_container button {
+    margin: auto;
+    display: block;
+    padding: 14px;
+    background-color: #F14306;
+    width: 30%;
+    color: white;
+    font-weight: bolder;
+}
+
+@media (max-width: 600px) {
+    .button_container button {
+        width: 70%;
+    }
+}
+
+.alternative_devide {
+    width: 100%;
+    margin: 30px 0px;
+    margin-bottom: 20px;
+}
+
+.line_bar {
+    margin: auto;
+    width: 40%;
+    height: 1px;
+    background-color: black;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .line_bar {
+        width: 70%;
+    }
+}
+
+._or_text {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -22px;
+    left: 45%;
+
+}
+
+@media (max-width: 600px) {
+    ._or_text {
+        left: 40%;
+    }
+}
+
+.aready_ahave_account {
+    text-align: center;
+    color: #F14306;
+}

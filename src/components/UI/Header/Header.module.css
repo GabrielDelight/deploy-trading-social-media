@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+@media (max-width: 800px) {
+    .header {
+        display: none;
+    }
+}
+
+
+
+.upgrade_button button {
+    padding: 17px 30px;
+    background-color: #FFBB00;
+    border-radius: 10px;
+    margin-left: 2rem;
+}
+
+
+
+.dark_mode_container {
+    /* width: 300px;; */
+    display: flex;
+    align-items: center;
+    background-color: #F0F3F7;
+    padding: 6px;
+    border-radius: 50px;
+}
+
+.dark_mode_container button {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 100px;
+    height: 34px;
+    padding: 10px;
+    background-color: unset;
+    transition: all ease .5s;
+}
+
+.dark_mode_container button i {
+    font-size: 20px !important;
+    margin: 0px 8px;
+    color: #CFD9E6 !important;
+}
+
+.header .icon_div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_corner_header div i {
+    font-size: 30px;
+    color: black;
+}
+
+.left_corner_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_corner_header div {
+    margin-left: 20px;
+}
+
+.avatar_container_div img {
+    width: 40px;
+    height: 40px;
+    ;
+    border-radius: 50%;
+    padding: 4px;
+    box-shadow: 0px 0px 10px gray;
+}

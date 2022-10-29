@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    /* height: 100vh; */
+}
+
+.aside {
+    flex-basis: 20%;
+}
+
+.article {
+    flex-basis: 86%;
+    /* padding: 10px; */
+}
+
+.section {
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    .section {
+        padding: 5px;
+    }
+    .aside {
+        display: none;
+    }
+
+    .article {
+        width: 100%;
+        flex-basis: 100%;
+        padding: unset;
+    }
+}

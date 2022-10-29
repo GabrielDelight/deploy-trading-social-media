@@ -1,0 +1,318 @@
+/* BOX-SHADOW */
+/* box-shadow: 1px 7px 16px 7px #dfdede; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'HelveticaBold';
+  src: url('../public/Helvetica/Helvetica-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica_';
+  src: url('../public//Helvetica/Helvetica.ttf') format('truetype');
+}
+
+
+
+body {
+  font-family: 'Helvetica_', Arial, Helvetica, sans-serif;
+  background-color: #F3F3F3;
+}
+
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: unset;
+}
+
+i {
+  cursor: pointer;
+  color: #8b8488;
+}
+
+img {
+  object-fit: cover;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer !important;
+  outline: none;
+  border: none;
+}
+
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: unset;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(227, 227, 227);
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  ::-webkit-scrollbar-thumb {
+    visibility: hidden;
+  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 99, 99, 0.4);
+}
+
+
+/* Prevent the app from zooming on mobile devices */
+:root {
+  touch-action: pan-x pan-y;
+  height: 100%
+}
+
+/* preventing IOS mobile from zooming */
+@media screen and (max-width: 767px) {
+
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"],
+  input {
+    font-size: 16px !important;
+    font-family: 'Helvetica_', Arial, Helvetica, sans-serif;
+
+  }
+}
+
+
+textarea {
+  font-size: 16px;
+  font-family: 'Helvetica_', Arial, Helvetica, sans-serif;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+div {
+  /* font-size: 14px; */
+  word-wrap: break-word;
+  word-break: break-word;
+  font-family: 'Helvetica_', Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 14px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+
+.centered {
+  text-align: center;
+}
+
+
+.cancel-btn {
+  border: 2px solid cornflowerblue;
+  background-color: white;
+  color: cornflowerblue;
+  font-weight: bold;
+  border-radius: 20px;
+
+}
+
+
+.confirm-btn {
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+
+i.rotate_plus,
+#rotate_plus {
+  transform: rotate(314deg);
+  display: inline-block;
+}
+
+
+
+.bold {
+  font-weight: bolder;
+  cursor: pointer !important;
+}
+
+.bolder {
+  font-weight: 900 !important;
+  cursor: pointer !important;
+}
+
+.smaller {
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+
+/* sticky aside firstchild child div */
+.stick_aside_div {
+  position: sticky;
+  top: 13px;
+  /* background-color: pink; */
+}
+
+.white-color {
+  color: #bbb !important;
+}
+
+#global_relative {
+  position: relative !important;
+}
+
+video {
+  border: none;
+  outline: none;
+  object-fit: cover;
+}
+
+.verified {
+  color: cornflowerblue;
+}
+
+.flex_username__and__user__name__date {
+  display: flex;
+  align-items: center;
+}
+
+.flex_username__and__user__name__date * {
+  margin-right: 3px;
+}
+
+.flex_username__and__user__name__date h4 {
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: bold;
+  color: #414141;
+}
+
+.flex_username__and__user__name__date h4:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.flex_username__and__user__name__date i {
+  margin-bottom: -5px;
+  font-size: 24px;
+  color: #00b90d;
+}
+
+.flex_username__and__user__name__date p {
+  color: rgb(85, 85, 85);
+}
+
+.urlifyHashAndLink {
+  font-weight: 900;
+  color: cornflowerblue;
+}
+
+.color-black {
+  color: black;
+  cursor: pointer;
+}
+
+/* Deleetiong animation  */
+.toggle_delete {
+  /* transition: all ease-in .5s; */
+  height: 200px;
+  overflow: hidden;
+  animation: deletefade .4s ease forwards;
+}
+
+@keyframes deletefade {
+  from {
+    height: 200px;
+  }
+
+  to {
+    height: 0px;
+  }
+}
+
+.marginTopAndBottom {
+  margin: 7px 0px;
+}
+
+.padding_px_10 {
+  padding: 10px;
+}
+
+
+
+/* 
+.your-app {
+  .rsis-container {
+    // do something
+  }
+} */
+
+/* .your-app { */
+.rsis-image {
+  background-size: cover !important;
+  width: 100% !important;
+}
+
+.slider_container {
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+
+
+.react-calendar {
+  border: unset !important;
+}
+
+.title-paragraph {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 48px;
+  /* margin-bottom: 18px; */
+}
+

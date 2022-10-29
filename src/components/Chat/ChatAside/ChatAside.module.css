@@ -1,0 +1,136 @@
+.global_wrapper {
+    margin: 10px 20px;
+}
+
+.first_row {
+    display: flex;
+    align-items: center;
+}
+
+.back_button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #AFBBC6;
+    opacity: 0.4;
+    margin-right: 10px;
+}
+.back_button i {
+    color: white;
+    margin-top: 5px;
+}
+.avatar_section img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.second_column {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.edibale_icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #DBE5ED;
+
+}
+
+.absolute_pencil {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.buttons button {
+    padding: 7px;
+    border-radius: 20px;
+    color: white;
+    width: 110px;
+    /* font-size: 10px; */
+    /* width: 100px; */
+    /* font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttons button i {
+    color: white;
+    margin-right: 4px;
+    margin-top: 4px;
+    font-size: 16px;
+
+}
+
+.header_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drop_down_div {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #DBE5ED;
+    opacity: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop_down_div i {
+    font-size: 24px;
+    margin-top: 4px;
+}
+
+.name_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4B5155;
+}
+
+.num_count {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #AFBBC6;
+}
+
+.date_count {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7B8793;
+}
+
+.title_div {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #4B5155;
+}
