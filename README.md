@@ -469,7 +469,7 @@ The Sepolia object defines the name of the network configuration. It is possible
 In this section, we will discuss how to access the private key of your MetaMask wallet. If you don't have MetaMask installed as a browser extension, you can [click here](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) to install it. I will provide instructions on accessing your MetaMask private key and funding your wallet using the Sepolia test network at no cost.
 
 
-**Step 1**
+#### Step 1
 To begin, access your MetaMask in your web browser. Once opened, you will observe the user interface depicted in the image provided. Please click on the three vertical dot symbols (ellipsis) indicated by the arrow in the image.
 
 ![](https://paper-attachments.dropboxusercontent.com/s_C33589B593C41A3F8C92440EE01F3840BE550FCC792DC35FA862F3B0DA74D151_1684648664181_Screenshot+2023-05-21+at+6.56.50+AM.png)
@@ -481,20 +481,20 @@ Once you click on the three-dot icon, a small modal will appear, displaying the 
 ![](https://paper-attachments.dropboxusercontent.com/s_C33589B593C41A3F8C92440EE01F3840BE550FCC792DC35FA862F3B0DA74D151_1684648745002_Screenshot+2023-05-21+at+6.58.35+AM.png)
 
 
-**Step 3**
+#### Step 3
 To access your private key, all you need to do is click on the button labeled "Explore private key."
 
 ![](https://paper-attachments.dropboxusercontent.com/s_C33589B593C41A3F8C92440EE01F3840BE550FCC792DC35FA862F3B0DA74D151_1684648813113_Screenshot+2023-05-21+at+6.59.37+AM.png)
 
 
-**Step 4**
+#### Step 4
 The private key is a protected key that does not require disclosure. To access it, you must enter your MetaMask login password.
   
 
 ![](https://paper-attachments.dropboxusercontent.com/s_C33589B593C41A3F8C92440EE01F3840BE550FCC792DC35FA862F3B0DA74D151_1684648889612_Screenshot+2023-05-21+at+7.01.01+AM.png)
 
 
-**Step 5**
+#### Step 5
 Once you enter your MetaMask password and click the confirm button, a new interface will appear, revealing your MetaMask secret key. It is crucial to safeguard this key by avoiding any form of exposure. 
 
 
@@ -515,7 +515,7 @@ After obtaining our Private Key, we can proceed to fund our MetaMask account. In
 In this part, we will obtain the Sepolia endpoint from Infura, which we will use to set up hardhat. To begin, please go to [https://www.infura.io/](https://www.infura.io/) and create an account or sign in if you already have one. The following steps will assist you in creating an Infura endpoint that will be utilized to configure hardhat for deploying the Token.
 
 
-**Step 1**
+#### Step 1
 Once you have successfully signed up or signed in, you will be directed to your dashboard, which is displayed below. To create an endpoint, click the "CREATE NEW API KEY" button
 
 
@@ -524,21 +524,21 @@ Once you have successfully signed up or signed in, you will be directed to your 
 
 
 
-**Step 2**
+#### Step 2
 After selecting the button shown above, a modal window will emerge, showing a form where you can generate a new API key. To generate the key, select the Web3 API from the options provided in the Network form. Furthermore, enter a name for the endpoint you wish to create. For consistency, we recommend using the same name used when creating the token to prevent any naming confusion. Once you have entered the desired name, kindly click on the “CREATE” button to generate your API key.
 
 
 ![](https://paper-attachments.dropboxusercontent.com/s_C33589B593C41A3F8C92440EE01F3840BE550FCC792DC35FA862F3B0DA74D151_1684590960764_Screenshot+2023-05-20+at+2.49.17+PM.png)
 
 
-**Step 3**
+#### Step 3
 Once you have successfully created your account, you will be automatically directed to the settings page of the API endpoint that was generated. However, since we are not using this page, you can simply click the endpoint button indicated by the red arrow in the image below.
 
 
 ![](https://paper-attachments.dropboxusercontent.com/s_C33589B593C41A3F8C92440EE01F3840BE550FCC792DC35FA862F3B0DA74D151_1684590970065_Screenshot+2023-05-20+at+2.51.04+PM.png)
 
 
-**Step 4**
+#### Step 4
 We are utilizing Ethereum as the Blockchain for our project on the endpoint page. The image provided shows three arrows: the first arrow indicates that you should click on the select dropdown and choose Sepolia, which is the network we will be using for this project. Lastly, the third arrow indicates the copy icons; simply click on these icon to copy the endpoint to the clipboard. 
 
 
@@ -619,14 +619,14 @@ Kindly ensure that you preserve the wallet address by copying and pasting it int
 
 You can confirm the successful deployment of the contract to the Ethereum blockchain by verifying the address on Etherscan. Etherscan offers a publicly accessible and transparent log of all transactions and contract deployments on the Ethereum network. Here is a step-by-step guide to verifying your recently created contract on Etherscan using the [Sepolia Etherscan](https://sepolia.etherscan.io/).
 
-**Step 1**
+#### Step 1
 Take the contract address that we mentioned earlier in our terminal and paste it into the search field of Sepolia Etherscan.
 
 
 ![](https://paper-attachments.dropboxusercontent.com/s_C33589B593C41A3F8C92440EE01F3840BE550FCC792DC35FA862F3B0DA74D151_1684658543763_Screenshot+2023-05-21+at+8.48.44+AM.png)
 
 
-**Step 2**
+#### Step 2
 Next, you will encounter a fresh interface that displays the contract you have deployed. Referring to the image below, the upper arrow indicates the contract name, while the lower arrow highlights the Transaction hash. To access the transaction details of the deployed contract, simply click on the transaction hash.
 
 
@@ -655,7 +655,7 @@ To begin, access the MetaMask extension within your web browser and select the o
 ![](https://paper-attachments.dropboxusercontent.com/s_C33589B593C41A3F8C92440EE01F3840BE550FCC792DC35FA862F3B0DA74D151_1684677583649_Screenshot+2023-05-21+at+2.49.46+PM.png)
 
 
-**Step 2**
+#### Step 2
 Once you click on the import token option, you will be redirected to a different interface where you can enter the recently deployed address. This address is the one we previously copied from the terminal in this article. All you have to do is paste the wallet address into the designated field labeled "Token contract address" and patiently wait for a few seconds. Eventually, you will observe the token's abbreviated name appearing in the second field. To finalize the process of adding your token to MetaMask, click on the "Add custom token" button.
 
 
@@ -664,7 +664,7 @@ Once you click on the import token option, you will be redirected to a different
 ![](https://paper-attachments.dropboxusercontent.com/s_C33589B593C41A3F8C92440EE01F3840BE550FCC792DC35FA862F3B0DA74D151_1684677609076_Screenshot+2023-05-21+at+2.51.34+PM.png)
 
 
-**Step 3**
+#### Step 3
 Once you have followed the instructions mentioned earlier and clicked the button, a new interface will appear showing your token information, including the Balance and the abbreviated name we assigned to it. To import the token into MetaMask, all you need to do is click the "Import tokens" button.
 
 
