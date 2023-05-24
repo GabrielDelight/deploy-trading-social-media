@@ -649,7 +649,7 @@ When you import your token to MetaMask, you gain the ability to engage with your
 By utilizing MetaMask to import your token, you gain the ability to engage in different activities, including checking your token balance, initiating token transfers, and reviewing transaction records.
 Within this segment, I will demonstrate the process of importing the token using MetaMask, enabling us to execute transactions and send tokens between wallets. To begin, let's import our recently created token.
 
-**Step 1**
+#### Step 1
 To begin, access the MetaMask extension within your web browser and select the option to import a token. 
 
 ![](https://paper-attachments.dropboxusercontent.com/s_C33589B593C41A3F8C92440EE01F3840BE550FCC792DC35FA862F3B0DA74D151_1684677583649_Screenshot+2023-05-21+at+2.49.46+PM.png)
